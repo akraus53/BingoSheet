@@ -15,7 +15,7 @@ void setup() {
 void draw() {
   background(255);
   //rect(width*0.1, height-(0.9*width), 0.8*width, 0.8*width);
-
+  text(frameCount, 30, height-30);
   for (int i = 0; i < 5; i++) {
     for (int j = 0; j < 5; j++) {
       float x = 0.1*width + i*(width*0.8)/5 + width*(0.8/10);
